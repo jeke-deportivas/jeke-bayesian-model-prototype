@@ -16,4 +16,3 @@ jobs:
         uses: jupyterhub/repo2docker-action@master
         with:
           NO_PUSH: true
-          BINDER_CACHE: true
