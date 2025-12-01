@@ -1,0 +1,19 @@
+name: Build Binder Container
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Trigger Binder build
+        uses: jupyterhub/repo2docker-action@master
+        with:
+          NO_PUSH: true
+          BINDER_CACHE: true

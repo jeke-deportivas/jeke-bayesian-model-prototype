@@ -1,0 +1,9 @@
+understatapi
+pandas
+numpy
+matplotlib
+pymc
+arviz
+scipy
+tqdm
+jupyter
