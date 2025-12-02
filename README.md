@@ -1,8 +1,14 @@
 # Jeke Bayesian Model Prototype
 
-Modelo bayesiano jerárquico para predicción de resultados de fútbol usando PyMC.
+Prototipo de modelo bayesiano jerárquico para predicción de resultados de fútbol usando PyMC.
 
 Basado en el paper de Baio y Blangiardo, implementado con datos de Understat.
+
+## Video explicativo
+
+Este notebook es un prototipo que acompaña al video donde explico todo el proceso:
+
+[![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://youtu.be/TATxOI4a6c8)
 
 ## Pruébalo sin instalar nada
 
