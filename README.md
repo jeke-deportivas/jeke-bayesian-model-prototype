@@ -2,7 +2,7 @@
 
 Prototipo de modelo bayesiano jerárquico para predicción de resultados de fútbol usando PyMC.
 
-Basado en el paper de Baio y Blangiardo, implementado con datos de Understat.
+Basado en el [paper de Baio y Blangiardo](https://discovery.ucl.ac.uk/id/eprint/16040/1/16040.pdf), implementado con datos de Understat.
 
 ## Video explicativo
 
